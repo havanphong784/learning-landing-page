@@ -394,3 +394,7 @@ a {
   width: 18px;
   height: 18px;
 }
+
+.slide-two .action .btn.active {
+  background: #ffb900;
+}
