@@ -269,7 +269,7 @@ a {
   color: white;
 }
 
-.container {
+.slide-two .container {
   padding: 200px 0;
 }
 
@@ -397,4 +397,139 @@ a {
 
 .slide-two .action .btn.active {
   background: #ffb900;
+}
+
+.slide-three {
+  background: #2e2100;
+}
+
+.slide-three .container {
+  padding: 96px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-three .character {
+  width: 160px;
+}
+
+.slide-three .character img {
+  width: 72px;
+  object-fit: cover;
+}
+
+.slide-three .character h5 {
+  color: #f7f7f7;
+  font-family: Sen;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 34px; /* 141.667% */
+}
+
+.slide-three .character p {
+  color: #bfbcb2;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */ /* 185.714% */
+}
+
+.slide-three .character .icon svg {
+  width: 30px;
+  height: 6px;
+}
+
+.slide-three .content {
+  max-width: 740px;
+  margin: 28px;
+  position: relative;
+}
+
+.slide-three .content p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 4rem; /* 153.846% */
+}
+
+.slide-three .content .icon svg {
+  width: 30px;
+  height: 28px;
+  fill: #634700;
+}
+
+.slide-three .content .icon {
+  position: absolute;
+  top: -28px;
+  left: -30px;
+}
+
+.slide-four .container {
+  padding: 200px 0;
+}
+
+.slide-four .content-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.slide-four .content-top .img img {
+  width: 270px;
+  height: 404px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.slide-four .content-top .img img:first-child {
+  margin-top: 34px;
+}
+
+.slide-four .content-top .img img:last-child {
+  margin-bottom: 34px;
+}
+
+.slide-four .content {
+  width: 470px;
+}
+
+.slide-four .content h4 {
+  color: #171100;
+  font-family: Sen;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 126.316% */
+  letter-spacing: -0.76px;
+}
+
+.slide-four .content p {
+  color: #5f5b53;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin: 16px 0;
+}
+
+.slide-four .content .btn {
+  margin-top: 16px;
+  width: 137px;
+  height: 50px;
+}
+
+.slide-four .content-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slide-four .content-bottom img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
+  object-fit: cover;
 }
