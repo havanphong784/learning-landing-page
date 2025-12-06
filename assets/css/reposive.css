@@ -1,9 +1,88 @@
 /* PC */
 @media (min-width: 992px) {
+  .nav-mobile {
+    display: none;
+  }
+  .nav-mobile-btn {
+    display: none;
+  }
 }
 
 /* TABLET MOBILE */
 @media (max-width: 991.98px) {
+  .nav {
+    display: none;
+  }
+  .header .action {
+    margin-left: auto;
+  }
+  .nav-mobile {
+    display: none;
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #1c1b1b33;
+  }
+  .nav-mobile img {
+    background-color: transparent;
+    margin: 28px;
+  }
+  .nav-mobile ul {
+    width: 42%;
+    background-color: #fffcf4;
+    height: 100%;
+    list-style: none;
+  }
+  .nav-mobile li {
+    padding: 24px 20px;
+    font-size: 1.6rem;
+  }
+  .nav-mobile li a {
+    color: #1e1e1d;
+  }
+  li + li {
+    border-top: 1px solid #e3c97a8d;
+  }
+  .nav-mobile-btn {
+    width: 32px;
+    margin-right: 16px;
+  }
+  .slide-one .body {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .slide-one .media-block {
+    width: 66%;
+    margin-bottom: 90px;
+  }
+  .slide-one .content-block {
+    width: 100%;
+    margin: 0 28px;
+    display: flex;
+    flex-direction: column;
+  }
+  .slide-two .item img {
+    height: 172px;
+  }
+  .slide-two .container {
+    padding: 70px 0;
+  }
+  .slide-four .content-top {
+    flex-direction: column;
+  }
+  .slide-four .content-top .img {
+    width: 100%;
+  }
+  .slide-four .container {
+    padding: 70px 0;
+    margin-bottom: 70px;
+  }
+  .slide-four .content {
+    width: 100%;
+  }
 }
 
 /* Tablet */

@@ -142,7 +142,7 @@ a {
 .slide-one .slide-one-summary {
   position: absolute;
   bottom: 48px;
-  width: 270px;
+  width: 50%;
   height: 244px;
   padding: 24px;
   right: -100px;
