@@ -83,13 +83,14 @@
   }
   .slide-four .content-top {
     flex-direction: column;
+    margin-bottom: 90px;
   }
   .slide-four .content-top .img {
     width: 100%;
   }
   .slide-four .container {
-    padding: 70px 0;
-    margin-bottom: 70px;
+    padding: 0;
+    margin: 70px 0;
   }
   .slide-four .content {
     width: 100%;
