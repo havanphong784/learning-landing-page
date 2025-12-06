@@ -10,6 +10,17 @@
 
 /* TABLET MOBILE */
 @media (max-width: 991.98px) {
+  html {
+    font-size: 50%;
+  }
+  .btn {
+    padding: 8px 12px;
+    min-width: 88px;
+  }
+  .slide-four .content .btn {
+    padding: 12px 20px;
+    min-width: 112px;
+  }
   .nav {
     display: none;
   }
