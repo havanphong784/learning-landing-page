@@ -15,6 +15,21 @@ a {
   text-decoration: none;
 }
 
+.line-clamp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp.line-2 {
+  --line-clamp: 2;
+}
+
+.break-all {
+  word-break: break-all;
+}
+
 .btn {
   color: white;
   display: inline-block;
@@ -96,6 +111,7 @@ a {
 }
 
 .slide-one {
+  width: 100%;
   padding: 56px 0 65px;
   background: #fffcf4;
 }
@@ -109,14 +125,15 @@ a {
 .slide-one .media-block {
   display: flex;
   position: relative;
-  width: 470px;
+  width: 42%;
 }
 
 .slide-one .content-block {
-  width: 470px;
+  width: 42%;
 }
 
 .slide-one .media-block .img {
+  width: 100%;
   height: 685px;
   object-fit: cover;
   border-radius: 20px;
@@ -183,7 +200,7 @@ a {
 }
 
 .slide-one-summary .content-block {
-  width: 470px;
+  width: 42%;
 }
 
 .heading {
@@ -247,6 +264,10 @@ a {
   line-height: 54px; /* 122.727% */
 }
 
+.slide-two {
+  width: 100%;
+}
+
 .slide-two .control .icon {
   width: 40px;
   height: 40px;
@@ -281,7 +302,7 @@ a {
 }
 
 .slide-two .title {
-  width: 458px;
+  width: 100%;
 }
 
 .slide-two .title h4 {
@@ -310,16 +331,14 @@ a {
 }
 
 .slide-two .item {
-  width: 370px;
+  width: calc(100% / 3 - 20px);
   border-radius: 12px;
   background: #fff;
   box-shadow: 0 18px 36px 0 rgba(0, 0, 0, 0.05);
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .slide-two .item img {
-  width: 370px;
+  width: 100%;
   height: 278px;
   border-radius: 12px 12px 0 0;
   object-fit: cover;
@@ -335,7 +354,7 @@ a {
   font-size: 1.8rem;
   font-weight: 600;
   line-height: 3rem; /* 166.667% */
-  padding-bottom: 6px;
+  margin-bottom: 6px;
 }
 
 .slide-two .disciption p {
@@ -345,7 +364,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 26px; /* 185.714% */
-  padding-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 .slide-two .disciption .cost {
@@ -366,6 +385,7 @@ a {
 }
 
 .slide-two .body {
+  width: 100%;
   flex-wrap: wrap;
   display: flex;
   justify-content: space-between;
@@ -401,6 +421,7 @@ a {
 
 .slide-three {
   background: #2e2100;
+  width: 100%;
 }
 
 .slide-three .container {
@@ -411,6 +432,8 @@ a {
 
 .slide-three .character {
   width: 160px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .slide-three .character img {
@@ -442,7 +465,7 @@ a {
 }
 
 .slide-three .content {
-  max-width: 740px;
+  width: 66%;
   margin: 28px;
   position: relative;
 }
@@ -468,19 +491,28 @@ a {
   left: -30px;
 }
 
+.slide-four {
+  width: 100%;
+}
+
 .slide-four .container {
   padding: 200px 0;
 }
 
 .slide-four .content-top {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 200px;
 }
 
+.slide-four .content-top .img {
+  width: 50%;
+}
+
 .slide-four .content-top .img img {
-  width: 270px;
+  width: 46%;
   height: 404px;
   object-fit: cover;
   border-radius: 16px;
@@ -495,7 +527,7 @@ a {
 }
 
 .slide-four .content {
-  width: 470px;
+  width: 42%;
 }
 
 .slide-four .content h4 {
@@ -528,7 +560,7 @@ a {
 }
 
 .slide-four .content-bottom img {
-  width: 470px;
+  width: 42%;
   height: 440px;
   border-radius: 20px;
   object-fit: cover;
@@ -536,6 +568,7 @@ a {
 
 .slide-five {
   background: #fffcf4;
+  width: 100%;
 }
 
 .slide-five .container {
@@ -573,7 +606,7 @@ a {
 }
 
 .slide-five .item {
-  width: 370px;
+  width: calc(100% / 3 - 20px);
   border-radius: 16px;
   background: #fff;
   box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.05);
@@ -586,7 +619,7 @@ a {
 .slide-five .item img {
   width: 100%;
   border-radius: 16px 16px 0 0;
-  height: 250px;
+  max-height: 250px;
   object-fit: cove;
 }
 
@@ -694,7 +727,7 @@ footer p {
 }
 
 footer .lesson p {
-  width: 267px;
+  max-width: 267px;
 }
 
 footer .lesson svg {
