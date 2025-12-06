@@ -206,10 +206,10 @@ a {
 .heading {
   color: #171100;
   font-family: Sen;
-  font-size: 58px;
+  font-size: 5.8rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 68px; /* 117.241% */
+  line-height: 6.8rem; /* 117.241% */
   letter-spacing: -1.16px;
 }
 
@@ -369,7 +369,7 @@ a {
 
 .slide-two .disciption .cost {
   color: #171100;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 30px; /* 166.667% */
 }
