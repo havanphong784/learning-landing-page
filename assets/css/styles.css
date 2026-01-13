@@ -106,6 +106,14 @@ a {
   background: #171100;
 }
 
+.nav-mobile.active {
+  display: flex;
+}
+
+.nav-mobile__hide {
+  flex: 1;
+}
+
 .header .btn-sign-up {
   min-width: 144px;
 }

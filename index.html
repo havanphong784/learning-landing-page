@@ -24,39 +24,41 @@
   <header class="header fixed">
     <div class="main-content">
       <div class="body">
-        <div class="nav-mobile">
+        <div id="nav-mobile" class="nav-mobile">
           <ul>
             <img src="./assets/img/Lesson..svg" alt="Lesson" />
             <li class="active">
-              <a href="#!">Home</a>
+              <a href="#slide-one">Home</a>
             </li>
             <li>
-              <a href="#!">Courses</a>
+              <a href="#slide-two">Courses</a>
             </li>
             <li>
-              <a href="#!">Pricing</a>
+              <a href="#slide-three">Pricing</a>
             </li>
             <li>
-              <a href="#!">Reviews</a>
+              <a href="#slide-five">Reviews</a>
             </li>
           </ul>
+          <div class="nav-mobile__hide" id="nav-mobile__hide" onclick="hideNavMobile()"></div>
         </div>
-        <img src="./assets/img/menu-svgrepo-com.svg" alt="" class="nav-mobile-btn">
+        <img onclick="onNavMobile()" src="./assets/img/menu-svgrepo-com.svg" alt="" class="nav-mobile-btn"
+          id="nav-mobile-btn">
         <img src="./assets/img/Lesson..svg" alt="Lesson" />
         <!-- nav -->
-        <nav class="nav">
+        <nav class="nav" id="" nav>
           <ul>
             <li class="active">
-              <a href="#!">Home</a>
+              <a href="#slide-one"">Home</a>
             </li>
             <li>
-              <a href="#!">Courses</a>
+              <a href=" #slide-two">Courses</a>
             </li>
             <li>
-              <a href="#!">Pricing</a>
+              <a href="#slide-three">Pricing</a>
             </li>
             <li>
-              <a href="#!">Reviews</a>
+              <a href="#slide-five">Reviews</a>
             </li>
           </ul>
         </nav>
@@ -69,7 +71,7 @@
   </header>
   <!-- main -->
   <main>
-    <div class="slide-one">
+    <div id="slide-one" class="slide-one">
       <div class="main-content">
         <div class="body">
           <!-- slide-one left -->
@@ -149,7 +151,7 @@
         </div>
       </div>
     </div>
-    <div class="slide-two">
+    <div id="slide-two" class="slide-two">
       <div class="main-content">
         <div class="container">
           <div class="heading">
@@ -252,7 +254,7 @@
         </div>
       </div>
     </div>
-    <div class="slide-three">
+    <div id="slide-three" class="slide-three">
       <div class="main-content">
         <div class="container">
           <div class="character">
@@ -285,7 +287,7 @@
         </div>
       </div>
     </div>
-    <div class="slide-four">
+    <div id="slide-four" class="slide-four">
       <div class="main-content">
         <div class="container">
           <div class="content-top">
@@ -321,7 +323,7 @@
         </div>
       </div>
     </div>
-    <div class="slide-five">
+    <div id="slide-five" class="slide-five">
       <div class="main-content">
         <div class="container">
           <h4>Our blog</h4>
@@ -461,6 +463,7 @@
       </div>
     </div>
   </footer>
+  <script src="./assets/script/script.js"></script>
 </body>
 
 </html>
